@@ -1,7 +1,7 @@
 # DAOT-Titan-Practice
 
 ## Simple titan killing practice map
-#Features:
+# Features:
 - Timer to track your progress
 - Customizable gamerules
 - Customize the amount of titans

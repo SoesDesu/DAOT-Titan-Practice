@@ -3,6 +3,7 @@
 ## Simple titan killing practice map
 - [Map download](https://github.com/SoesDesu/DAOT-Titan-Practice/releases)
 - [Danny's AOT mod](https://modrinth.com/mod/dannys-aot) (required)
+- [Legendary Survival Overhaul](https://modrinth.com/mod/legendary-survival-overhaul) (required)
 
 ## Feedback
 - [SoesDesu](https://discordapp.com/users/894617827007397908) on Discord

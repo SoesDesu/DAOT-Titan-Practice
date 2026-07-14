@@ -1,6 +1,8 @@
 # DAOT-Titan-Practice
 
 ## Simple titan killing practice map
+- [Download](https://github.com/SoesDesu/DAOT-Titan-Practice/releases)
+
 # Features:
 - Timer to track your progress
 - Customizable gamerules

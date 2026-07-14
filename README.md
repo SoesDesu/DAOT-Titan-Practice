@@ -1,7 +1,8 @@
 # DAOT-Titan-Practice
 
 ## Simple titan killing practice map
-- [Download](https://github.com/SoesDesu/DAOT-Titan-Practice/releases)
+- [Map download](https://github.com/SoesDesu/DAOT-Titan-Practice/releases)
+- [Danny's AOT mod](https://modrinth.com/mod/dannys-aot) (required)
 
 # Features:
 - Timer to track your progress

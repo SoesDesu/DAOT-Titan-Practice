@@ -4,6 +4,9 @@
 - [Map download](https://github.com/SoesDesu/DAOT-Titan-Practice/releases)
 - [Danny's AOT mod](https://modrinth.com/mod/dannys-aot) (required)
 
+## Feedback
+- [SoesDesu](https://discordapp.com/users/894617827007397908) on Discord
+
 # Features:
 - Timer to track your progress
 - Customizable gamerules

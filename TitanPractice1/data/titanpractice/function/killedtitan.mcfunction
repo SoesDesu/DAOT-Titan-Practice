@@ -1,1 +1,0 @@
-tellraw @a "Killed Arena Titan"

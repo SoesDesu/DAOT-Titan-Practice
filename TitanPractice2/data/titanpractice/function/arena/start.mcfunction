@@ -2,6 +2,7 @@ execute run scoreboard players set tick timer 0
 execute run scoreboard players set seconds timer 0
 execute run scoreboard players set minutes timer 0
 execute run scoreboard players set hours timer 0
+execute run scoreboard players set KillCount ArenaSettings 0
 execute run function titanpractice:arena/spawntitan
 tp @a @e[name=ArenaPlayerSpawn,sort=random,limit=1]
 effect clear @a

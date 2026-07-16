@@ -17,7 +17,7 @@
             "dannys-aot:yellow_titan",
             "dannys-aot:abnormal_titan"
           ],
-          "nbt": "name:\"ArenaTitan\""
+          "nbt": "{CustomName:'\"ArenaTitan\"'}"
         }
       }
     }

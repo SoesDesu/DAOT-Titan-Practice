@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "KillTitan": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": [
+            "dannys-aot:titan",
+            "dannys-aot:titan_beard",
+            "dannys-aot:titan_tropical",
+            "dannys-aot:small_titan",
+            "dannys-aot:small_titan_2",
+            "dannys-aot:crawling_abnormal_titan",
+            "dannys-aot:connie_father",
+            "dannys-aot:fritz_titan",
+            "dannys-aot:sad_titan",
+            "dannys-aot:yellow_titan",
+            "dannys-aot:abnormal_titan"
+          ],
+          "nbt": "name:\"ArenaTitan\""
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "titanpractice:killedtitan"
+  }
+}

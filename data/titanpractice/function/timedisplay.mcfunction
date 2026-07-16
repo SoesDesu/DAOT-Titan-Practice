@@ -1,0 +1,2 @@
+execute if score seconds timer >= 10base timer run execute as @a run title @p actionbar [{"score":{"name":"minutes","objective":"timer"},"color":"red"},{"text":":"},{"score":{"name":"seconds","objective":"timer"},"color":"red"}]
+execute if score seconds timer < 10base timer run execute as @a run title @p actionbar [{"score":{"name":"minutes","objective":"timer"},"color":"red"},{"text":":0"},{"score":{"name":"seconds","objective":"timer"},"color":"red"}]

@@ -26,6 +26,7 @@ scoreboard players set tick timer 0
 scoreboard players set seconds timer 0
 scoreboard players set minutes timer 0
 scoreboard players set hours timer 0
+scoreboard players set killcount timer 0
 
 
 #load complete

@@ -22,6 +22,7 @@ summon minecraft:villager 1320 94 0 {Tags:["dannysaot_injected"]}
 
 # --------- ANIMATION END -----------
 
+execute run scoreboard players set @a KillCount 0
 scoreboard players set reverse timer 1
 scoreboard players operation minutes timer = Minute DistrictSettings
 scoreboard players operation seconds timer = Second DistrictSettings

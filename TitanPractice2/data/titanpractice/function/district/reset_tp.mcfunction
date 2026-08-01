@@ -19,6 +19,7 @@ execute if score resetLoad DistrictSettings matches ..13 run scoreboard players 
 schedule function titanpractice:district/reset_kill 1s
 
 execute if score resetLoad DistrictSettings matches 14 run kill @a
+execute if score resetLoad DistrictSettings matches 14 run scoreboard players set @a death 0
 execute if score resetLoad DistrictSettings matches 14 run gamemode survival @a
 execute if score resetLoad DistrictSettings matches 14 run effect give @a regeneration 1 15 true
 execute if score resetLoad DistrictSettings matches 14 run effect give @a saturation infinite 1 true

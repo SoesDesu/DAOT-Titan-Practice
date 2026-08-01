@@ -12,6 +12,8 @@ execute if score resetLoad DistrictSettings matches 10 run tp @a 1160 130 120
 execute if score resetLoad DistrictSettings matches 11 run tp @a 1160 130 250
 execute if score resetLoad DistrictSettings matches 12 run tp @a 1270 130 120
 execute if score resetLoad DistrictSettings matches 13 run tp @a 1270 130 -75
+execute if score resetLoad DistrictSettings matches 13 run setblock 1316 75 -14 minecraft:redstone_block replace
+execute if score resetLoad DistrictSettings matches 13 run setblock 1316 75 -14 minecraft:air replace
 execute if score resetLoad DistrictSettings matches 14 run tp @a 1270 130 -200
 execute if score resetLoad DistrictSettings matches ..13 run scoreboard players add resetLoad DistrictSettings 1
 schedule function titanpractice:district/reset_kill 1s

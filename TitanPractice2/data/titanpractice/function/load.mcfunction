@@ -68,5 +68,7 @@ scoreboard players set cam camera 0
 
 
 #load complete
+setblock 1316 75 -14 minecraft:redstone_block replace
+setblock 1316 75 -14 minecraft:air replace
 tp @a 0 0 0
 tellraw @p "=========================\n§c§lWelcome to Titan Practice\n§r§eMap made by SoesDesu\nAll credits in hub\n§r§f========================="

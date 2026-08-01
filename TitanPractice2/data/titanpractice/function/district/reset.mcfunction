@@ -1,4 +1,6 @@
 clear @a
+setblock 1316 75 -14 minecraft:redstone_block replace
+setblock 1316 75 -14 minecraft:air replace
 scoreboard players set Started DistrictSettings 0
 scoreboard players set Running DistrictSettings 0
 schedule clear titanpractice:district/cams/camsequence/bell_ring_start

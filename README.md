@@ -21,10 +21,10 @@
 - Timer to track your progress
 - Customizable gamerules
 - Customize the amount of titans
+- Customize and choose your loadout
+- Multiple maps to play on
 # WIPs:
 - Personal best time leaderboard
-- Multiple maps to play on
-- Customize and choose your loadout
 
 
 > 

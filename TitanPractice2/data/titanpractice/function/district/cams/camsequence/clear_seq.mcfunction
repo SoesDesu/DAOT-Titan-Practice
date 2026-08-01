@@ -1,0 +1,1 @@
+tp @e[type=dannys-aot:colossal_titan] 1000 -39 0

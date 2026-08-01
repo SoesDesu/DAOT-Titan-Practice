@@ -1,0 +1,10 @@
+schedule function titanpractice:district/cams/camsequence/bell_ring 1s append
+schedule function titanpractice:district/cams/camsequence/bell_ring_2 1.2s append
+schedule function titanpractice:district/cams/camsequence/bell_ring 2s append
+schedule function titanpractice:district/cams/camsequence/bell_ring_2 2.4s append
+schedule function titanpractice:district/cams/camsequence/bell_ring 3s append
+schedule function titanpractice:district/cams/camsequence/bell_ring_2 3.2s append
+schedule function titanpractice:district/cams/camsequence/bell_ring 4s append
+schedule function titanpractice:district/cams/camsequence/bell_ring_2 4.3s append
+schedule function titanpractice:district/cams/camsequence/bell_ring 5s append
+schedule function titanpractice:district/cams/camsequence/bell_ring_2 5.5s append

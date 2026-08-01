@@ -1,3 +1,4 @@
+scoreboard players set reverse timer 0
 execute run scoreboard players set tick timer 0
 execute run scoreboard players set seconds timer 0
 execute run scoreboard players set minutes timer 0

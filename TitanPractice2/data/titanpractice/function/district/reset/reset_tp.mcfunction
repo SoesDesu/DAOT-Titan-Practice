@@ -16,7 +16,7 @@ execute if score resetLoad DistrictSettings matches 13 run setblock 1316 75 -14 
 execute if score resetLoad DistrictSettings matches 13 run setblock 1316 75 -14 minecraft:air replace
 execute if score resetLoad DistrictSettings matches 14 run tp @a 1270 130 -200
 execute if score resetLoad DistrictSettings matches ..13 run scoreboard players add resetLoad DistrictSettings 1
-schedule function titanpractice:district/reset_kill 1s
+schedule function titanpractice:district/reset/reset_kill 1s
 
 execute if score resetLoad DistrictSettings matches 14 run kill @a
 execute if score resetLoad DistrictSettings matches 14 run scoreboard players set @a death 0
@@ -25,5 +25,5 @@ execute if score resetLoad DistrictSettings matches 14 run effect give @a regene
 execute if score resetLoad DistrictSettings matches 14 run effect give @a saturation infinite 1 true
 execute if score resetLoad DistrictSettings matches 14 run effect give @a legendarysurvivaloverhaul:hydration_fill infinite 1 true
 execute if score resetLoad DistrictSettings matches 14 run effect give @a legendarysurvivaloverhaul:temperature_immunity infinite 1 true
-execute if score resetLoad DistrictSettings matches 14 run schedule function titanpractice:district/reset_finish 1s
+execute if score resetLoad DistrictSettings matches 14 run schedule function titanpractice:district/reset/reset_finish 1s
 execute if score resetLoad DistrictSettings matches 14 run scoreboard players set resetLoad DistrictSettings 0

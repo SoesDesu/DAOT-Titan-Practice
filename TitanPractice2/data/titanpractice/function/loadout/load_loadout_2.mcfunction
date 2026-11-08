@@ -47,3 +47,6 @@ item replace entity @a armor.feet from block -15 -1 0 container.21
 
 #offhand
 item replace entity @a weapon.offhand from block -15 -1 0 container.26
+
+execute if score Harness2 Loadout matches 1 if score LoadoutODM2 Loadout matches 1 run item replace entity @a armor.legs with dannys-aot:odm_harness[dannys-aot:odm_harness_gear={id:"dannys-aot:odm_gear",count:1,components:{"minecraft:custom_data":{Gas:500}}}]
+execute if score Harness2 Loadout matches 1 if score LoadoutODM2 Loadout matches 2 run item replace entity @a armor.legs with dannys-aot:odm_harness[dannys-aot:odm_harness_gear={id:"dannys-aot:odm_apg",count:1,components:{"minecraft:custom_data":{Gas:1000}}}]

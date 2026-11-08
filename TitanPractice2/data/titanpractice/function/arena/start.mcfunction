@@ -5,6 +5,7 @@ execute run scoreboard players set minutes timer 0
 execute run scoreboard players set hours timer 0
 execute run scoreboard players set @a KillCount 0
 execute run function titanpractice:arena/spawntitan
+gamemode survival @a
 tp @a @e[name=ArenaPlayerSpawn,sort=random,limit=1]
 effect clear @a
 effect give @a saturation infinite 1 true

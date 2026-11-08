@@ -45,7 +45,32 @@ scoreboard objectives add KillCount dummy
 scoreboard players set @a KillCount 0
 #  loadout
 scoreboard objectives add Loadout dummy
+scoreboard players set ChestResetTrigger Loadout 1
+
+#         LoadoutODM: 1=ODM, 2=APG, 0=nothing
+scoreboard players set Harness1 Loadout 0
+scoreboard players set LoadoutODM1 Loadout 1
+scoreboard players set ODMSelector1 Loadout 0
+scoreboard players set ODMSelectorTrigger1 Loadout 0
+scoreboard players set APGSelectorTrigger1 Loadout 0
+scoreboard players set NothingSelectorTrigger1 Loadout 0
+
+scoreboard players set Harness2 Loadout 0
+scoreboard players set LoadoutODM2 Loadout 1
+scoreboard players set ODMSelector2 Loadout 0
+scoreboard players set ODMSelectorTrigger2 Loadout 0
+scoreboard players set APGSelectorTrigger2 Loadout 0
+scoreboard players set NothingSelectorTrigger2 Loadout 0
+
+scoreboard players set Harness3 Loadout 0
+scoreboard players set LoadoutODM3 Loadout 1
+scoreboard players set ODMSelector3 Loadout 0
+scoreboard players set ODMSelectorTrigger3 Loadout 1
+scoreboard players set APGSelectorTrigger3 Loadout 1
+scoreboard players set NothingSelectorTrigger3 Loadout 1
+
 scoreboard players set ChosenLoadout Loadout 1
+function titanpractice:loadout/loadoutchest
 #  resets
 scoreboard objectives add reset dummy
 scoreboard objectives add death deathCount
